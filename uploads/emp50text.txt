@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Alice Smith",
+    "hire_date": "2020-05-15",
+    "gender": "Female",
+    "position": "Software Engineer",
+    "department": "Engineering",
+    "salary": 85000,
+    "email": "alice.smith@example.com",
+    "performance_rating": 4.5
+  },
+  {
+    "name": "Bob Johnson",
+    "hire_date": "2021-07-10",
+    "gender": "Male",
+    "position": "DevOps Engineer",
+    "department": "IT",
+    "salary": 92000,
+    "email": "bob.johnson@example.com",
+    "performance_rating": 4.0
+  },
+  {
+    "name": "Charlie Brown",
+    "hire_date": "2022-03-18",
+    "gender": "Male",
+    "position": "QA Engineer",
+    "department": "Quality Assurance",
+    "salary": 78000,
+    "email": "charlie.brown@example.com",
+    "performance_rating": 3.8
+  },
+  {
+    "name": "David Williams",
+    "hire_date": "2023-01-11",
+    "gender": "Male",
+    "position": "Data Scientist",
+    "department": "Data Science",
+    "salary": 100000,
+    "email": "david.williams@example.com",
+    "performance_rating": 4.7
+  },
+  {
+    "name": "Eve Davis",
+    "hire_date": "2020-11-25",
+    "gender": "Female",
+    "position": "Product Manager",
+    "department": "Product",
+    "salary": 110000,
+    "email": "eve.davis@example.com",
+    "performance_rating": 4.9
+  },
+  {
+    "name": "Frank Miller",
+    "hire_date": "2021-09-20",
+    "gender": "Male",
+    "position": "HR Manager",
+    "department": "Human Resources",
+    "salary": 78000,
+    "email": "frank.miller@example.com",
+    "performance_rating": 4.2
+  },
+  {
+    "name": "Grace Lee",
+    "hire_date": "2022-05-14",
+    "gender": "Female",
+    "position": "UI/UX Designer",
+    "department": "Design",
+    "salary": 71000,
+    "email": "grace.lee@example.com",
+    "performance_rating": 4.1
+  },
+  {
+    "name": "Henry Clark",
+    "hire_date": "2024-02-01",
+    "gender": "Male",
+    "position": "Cloud Architect",
+    "department": "IT",
+    "salary": 130000,
+    "email": "henry.clark@example.com",
+    "performance_rating": 4.8
+  },
+  {
+    "name": "Ivy Wilson",
+    "hire_date": "2023-08-21",
+    "gender": "Female",
+    "position": "Security Analyst",
+    "department": "Security",
+    "salary": 90000,
+    "email": "ivy.wilson@example.com",
+    "performance_rating": 4.0
+  },
+  {
+    "name": "Jack Taylor",
+    "hire_date": "2021-06-12",
+    "gender": "Male",
+    "position": "System Administrator",
+    "department": "IT",
+    "salary": 87000,
+    "email": "jack.taylor@example.com",
+    "performance_rating": 4.3
+  },
+  {
+    "name": "Kathy Harris",
+    "hire_date": "2020-02-05",
+    "gender": "Female",
+    "position": "Finance Manager",
+    "department": "Finance",
+    "salary": 98000,
+    "email": "kathy.harris@example.com",
+    "performance_rating": 4.6
+  },
+  {
+    "name": "Liam Adams",
+    "hire_date": "2021-08-01",
+    "gender": "Male",
+    "position": "Marketing Specialist",
+    "department": "Marketing",
+    "salary": 66000,
+    "email": "liam.adams@example.com",
+    "performance_rating": 4.0
+  },
+  {
+    "name": "Maria Gonzalez",
+    "hire_date": "2023-04-17",
+    "gender": "Female",
+    "position": "Account Executive",
+    "department": "Sales",
+    "salary": 75000,
+    "email": "maria.gonzalez@example.com",
+    "performance_rating": 4.4
+  },
+  {
+    "name": "Nathan Scott",
+    "hire_date": "2020-09-09",
+    "gender": "Male",
+    "position": "Business Analyst",
+    "department": "Business",
+    "salary": 83000,
+    "email": "nathan.scott@example.com",
+    "performance_rating": 3.9
+  },
+  {
+    "name": "Olivia Baker",
+    "hire_date": "2021-12-05",
+    "gender": "Female",
+    "position": "Software Engineer",
+    "department": "Engineering",
+    "salary": 87000,
+    "email": "olivia.baker@example.com",
+    "performance_rating": 4.1
+  },
+  {
+    "name": "Paul Green",
+    "hire_date": "2022-07-23",
+    "gender": "Male",
+    "position": "Data Analyst",
+    "department": "Data Science",
+    "salary": 72000,
+    "email": "paul.green@example.com",
+    "performance_rating": 3.7
+  },
+  {
+    "name": "Quincy Hall",
+    "hire_date": "2020-03-19",
+    "gender": "Male",
+    "position": "Operations Manager",
+    "department": "Operations",
+    "salary": 96000,
+    "email": "quincy.hall@example.com",
+    "performance_rating": 4.6
+  },
+  {
+    "name": "Rachel Lewis",
+    "hire_date": "2023-06-28",
+    "gender": "Female",
+    "position": "Customer Support Lead",
+    "department": "Customer Support",
+    "salary": 64000,
+    "email": "rachel.lewis@example.com",
+    "performance_rating": 4.0
+  },
+  {
+    "name": "Sam Walker",
+    "hire_date": "2022-10-19",
+    "gender": "Male",
+    "position": "Network Engineer",
+    "department": "IT",
+    "salary": 84000,
+    "email": "sam.walker@example.com",
+    "performance_rating": 3.8
+  },
+  {
+    "name": "Tina Moore",
+    "hire_date": "2021-04-15",
+    "gender": "Female",
+    "position": "Graphic Designer",
+    "department": "Design",
+    "salary": 62000,
+    "email": "tina.moore@example.com",
+    "performance_rating": 4.2
+  },
+  {
+    "name": "Uma Patel",
+    "hire_date": "2024-03-05",
+    "gender": "Female",
+    "position": "Content Manager",
+    "department": "Marketing",
+    "salary": 78000,
+    "email": "uma.patel@example.com",
+    "performance_rating": 4.3
+  },
+  {
+    "name": "Victor Martinez",
+    "hire_date": "2023-02-27",
+    "gender": "Male",
+    "position": "Logistics Coordinator",
+    "department": "Logistics",
+    "salary": 69000,
+    "email": "victor.martinez@example.com",
+    "performance_rating": 4.1
+  },
+  {
+    "name": "Wendy Lopez",
+    "hire_date": "2020-06-30",
+    "gender": "Female",
+    "position": "Accountant",
+    "department": "Finance",
+    "salary": 85000,
+    "email": "wendy.lopez@example.com",
+    "performance_rating": 4.5
+  },
+  {
+    "name": "Xander Murphy",
+    "hire_date": "2021-11-11",
+    "gender": "Male",
+    "position": "SEO Specialist",
+    "department": "Marketing",
+    "salary": 68000,
+    "email": "xander.murphy@example.com",
+    "performance_rating": 3.9
+  },
+  {
+    "name": "Yara Phillips",
+    "hire_date": "2023-12-01",
+    "gender": "Female",
+    "position": "Technical Writer",
+    "department": "Engineering",
+    "salary": 74000,
+    "email": "yara.phillips@example.com",
+    "performance_rating": 4.4
+  },
+  {
+    "name": "Zachary King",
+    "hire_date": "2022-09-07",
+    "gender": "Male",
+    "position": "Legal Advisor",
+    "department": "Legal",
+    "salary": 98000,
+    "email": "zachary.king@example.com",
+    "performance_rating": 4.7
+  }
+]

@@ -1,0 +1,4 @@
+flask
+pandas
+huggingface_hub
+openpyxl  # for saving reports as Excel files

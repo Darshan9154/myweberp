@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Report Generator</title>
+</head>
+<body>
+    <h1>Welcome to the Employee Report Generator</h1>
+    <h2>Using the Mistral model for report generation.</h2>
+
+    <h3>Available Prompts:</h3>
+    <ul>
+        {% for category, prompt_list in prompts.items() %}
+            <li>{{ category }}:
+                <ul>
+                    {% for prompt in prompt_list %}
+                        <li>{{ prompt }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h3>Custom Prompt</h3>
+    <form method="post" action="{{ url_for('generate') }}" enctype="multipart/form-data">
+        <label for="file">Upload Employee Data File:</label>
+        <input type="file" name="file" required>
+
+        <label for="prompt">Enter your prompt:</label>
+        <input type="text" name="prompt" placeholder="Type your prompt here..." required>
+
+        <button type="submit">Generate Report</button>
+    </form>
+</body>
+</html>
