@@ -77,7 +77,7 @@ prompts = {
 }
 
 # Replace with your actual Hugging Face API key
-HUGGINGFACE_API_KEY = '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'
+HUGGINGFACE_API_KEY = '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'
 
 def generate_report(prompt, employees):
     client = InferenceClient(api_key=HUGGINGFACE_API_KEY)
@@ -87,7 +87,7 @@ def generate_report(prompt, employees):
     ]
 
     response = client.chat_completion(
-        model="mistralai/Mistral-Nemo-Instruct-2407",
+        model="Qwen/Qwen2.5-Coder-32B-Instruct",
         messages=messages,
         max_tokens=500,
         stream=False
@@ -132,7 +132,11 @@ def generate():
 def download(filename):
     return send_file(filename, as_attachment=True)
 
+
 if __name__ == '__main__':
+    # Check if the 'uploads' directory exists; if not, create it.
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
-    app.run(debug=True)
+
+    # Run the Flask app, binding it to 0.0.0.0, which makes it accessible on any network interface.
+    app.run(host='0.0.0.0', port=5000, debug=True)
